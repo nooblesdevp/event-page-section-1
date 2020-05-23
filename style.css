@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img.jpg);
+    background-size: cover;
+}
+.leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+section .content-text{
+    background: rgb(39, 172, 206);
+    padding: 40px;
+    border: none;
+    border-radius: 2px;
+    margin-top: -7px;
+}
+section .content-text:hover{
+    background-color: rgb(59, 154, 218);
+    transition: 0.4s ease;
+}
+section .content-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+/* section h1:hover{
+    transition: 0.4s ease;
+    color: #000;
+} */
+section .content-text p{
+    font-size: normal;
+    color: #fff;
+    line-height: 25px;    
+}
+section .event{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+
+}
+section .event ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+    padding: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+section .event li h3, p, a  {
+    
+    color: #000;
+    
+}
+.event ul li{
+    background-color: white;
+    list-style: none;
+    height: 180px;
+    box-sizing: border-box;
+    margin: 18px 0;
+    border-radius: 2px;
+}
+.event .time{
+    background-color:rgb(39, 172, 206);
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+
+}
+.event .time h2{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    position: relative;
+    padding-bottom: 6px;
+    cursor: pointer;
+
+}
+.event .time span{
+    font-size: 35px;
+    /* line-height:15px ; */
+}
+.event .detail{
+   width: 70%;
+   padding: 20px;
+   box-sizing: border-box;
+   margin-left: 30%;
+   margin-top: -180px;
+   position: relative;
+}
+.event h3{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.event p{
+    font-size: medium;
+    padding-top: 10px;
+}
+.event a{
+    float: right;
+    padding: 8px 20px;
+    border: 2px solid rgb(39, 172, 206);
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.event .time:hover{
+    background-color: rgb(16, 71, 143);
+    transition: 0.5s ease;
+}
+.event a:hover{
+    background-color: rgb(16, 71, 143);
+    color: #ffffff;
+    transition: 0.5s ease;
+}
